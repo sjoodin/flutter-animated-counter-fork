@@ -83,7 +83,7 @@ class AnimatedFlipCounter extends StatelessWidget {
     final style = DefaultTextStyle.of(context).style.merge(textStyle);
     // Layout number "8" (probably the widest digit) to see its size
     final prototypeDigit = TextPainter(
-      text: TextSpan(text: "8", style: style),
+      text: TextSpan(text: "0", style: style),
       textDirection: TextDirection.ltr,
       textScaleFactor: MediaQuery.of(context).textScaleFactor,
     )..layout();
